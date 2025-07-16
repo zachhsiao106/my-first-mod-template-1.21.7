@@ -2,6 +2,7 @@ package net.zachhsiao106.myfirstmod;
 
 import net.fabricmc.api.ModInitializer;
 
+import net.zachhsiao106.myfirstmod.item.ModItems;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -11,6 +12,6 @@ public class MyFirstMod implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
-
+		ModItems.registerModItems();
 	}
 }
